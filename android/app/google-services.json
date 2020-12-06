@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "626629684697",
+    "firebase_url": "https://flutter-terminal-app.firebaseio.com",
+    "project_id": "flutter-terminal-app",
+    "storage_bucket": "flutter-terminal-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626629684697:android:61422e02b8027ef69abdc8",
+        "android_client_info": {
+          "package_name": "com.madan.flutterterminalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626629684697-35i2unntovnvhtrvg1qusm35dflnchsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYSqH5BVRB7a2cDyPDMT4x7i4Xki5Pvn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626629684697-35i2unntovnvhtrvg1qusm35dflnchsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
