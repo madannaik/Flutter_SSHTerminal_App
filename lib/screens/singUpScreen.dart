@@ -27,7 +27,7 @@ class _SingUpScreenState extends State<SingUpScreen> {
       body: ModalProgressHUD(
         inAsyncCall: isLoaded,
         child: Container(
-          height: MediaQuery.of(context).size.height * 0.7,
+          height: MediaQuery.of(context).size.height * 0.77,
           decoration: BoxDecoration(
             color: Colors.blueGrey,
             borderRadius: BorderRadius.only(
@@ -119,7 +119,7 @@ class _SingUpScreenState extends State<SingUpScreen> {
               Row(
                 children: [
                   Padding(
-                    padding: EdgeInsets.symmetric(vertical: 16.0),
+                    padding: EdgeInsets.symmetric(vertical: 10.0),
                     child: Material(
                       color: Color(0xFFff5200),
                       borderRadius: BorderRadius.all(Radius.circular(30.0)),
@@ -210,7 +210,6 @@ class _SingUpScreenState extends State<SingUpScreen> {
                           }
                         },
                         minWidth: MediaQuery.of(context).size.width * 0.45,
-                        height: 42.0,
                         child: Text(
                           'Sing Up',
                         ),
@@ -221,7 +220,7 @@ class _SingUpScreenState extends State<SingUpScreen> {
                     width: MediaQuery.of(context).size.width * 0.08,
                   ),
                   Padding(
-                    padding: EdgeInsets.symmetric(vertical: 16.0),
+                    padding: EdgeInsets.symmetric(vertical: 10.0),
                     child: Material(
                       color: Color(0xFFff5200),
                       borderRadius: BorderRadius.all(Radius.circular(30.0)),
@@ -231,7 +230,6 @@ class _SingUpScreenState extends State<SingUpScreen> {
                           Navigator.of(context).push(_loginRoute());
                         },
                         minWidth: MediaQuery.of(context).size.width * 0.3,
-                        height: 42.0,
                         child: Text(
                           'Log in',
                         ),

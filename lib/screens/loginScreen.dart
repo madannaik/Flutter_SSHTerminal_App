@@ -26,7 +26,7 @@ class _LoginScreenState extends State<LoginScreen> {
       body: ModalProgressHUD(
         inAsyncCall: isLoaded,
         child: Container(
-          height: MediaQuery.of(context).size.height * 0.7,
+          height: MediaQuery.of(context).size.height * 0.77,
           decoration: BoxDecoration(
             color: Colors.blue,
             borderRadius: BorderRadius.only(
@@ -109,7 +109,7 @@ class _LoginScreenState extends State<LoginScreen> {
               Row(
                 children: [
                   Padding(
-                    padding: EdgeInsets.symmetric(vertical: 16.0),
+                    padding: EdgeInsets.symmetric(vertical: 10.0),
                     child: Material(
                       color: Color(0xFFff5200),
                       borderRadius: BorderRadius.all(Radius.circular(30.0)),
@@ -175,7 +175,6 @@ class _LoginScreenState extends State<LoginScreen> {
                           }
                         },
                         minWidth: MediaQuery.of(context).size.width * 0.45,
-                        height: 42.0,
                         child: Text(
                           'Log In',
                         ),
@@ -186,7 +185,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     width: MediaQuery.of(context).size.width * 0.05,
                   ),
                   Padding(
-                    padding: EdgeInsets.symmetric(vertical: 16.0),
+                    padding: EdgeInsets.symmetric(vertical: 10.0),
                     child: Material(
                       color: Color(0xFFff5200),
                       borderRadius: BorderRadius.all(Radius.circular(30.0)),
@@ -196,7 +195,6 @@ class _LoginScreenState extends State<LoginScreen> {
                           Navigator.of(context).push(_signUpRoute());
                         },
                         minWidth: MediaQuery.of(context).size.width * 0.3,
-                        height: 42.0,
                         child: Text(
                           'Sign in',
                         ),
